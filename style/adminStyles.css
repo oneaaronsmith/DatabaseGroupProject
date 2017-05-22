@@ -1,0 +1,115 @@
+	/*This style sheet is for use with the ad*/
+	button {
+		width: 200px;
+	}
+	
+	pre {
+		font-family: "Century Gothic", arial, sans-serif;
+	}
+	
+	#admin-home-page {
+	/* Color */
+	background-color: rgba(255,255,255,1);
+	height: auto;
+
+	/* Display and Position */
+	margin-top: 70px;
+	padding: 5px 10px 10px 10px;
+	}
+	
+	.form-container input{
+		width: 200px;
+	}
+	
+	.form-container-b {
+		font-family: "Century Gothic", arial, sans-serif;
+		background-color: whitesmoke;
+		border: 0.5px solid lightgrey;
+		border-radius: 1%;
+		padding: 10px 0px 20px 200px;
+		margin: 20px 0px 0px 0px;
+	}
+	
+	.form-container-c {
+		font-family: "Century Gothic",arial, sans-serif;
+		background-color: whitesmoke;
+		margin: 10px 0px 10px 0px;
+	}
+	
+	#admin-edit-page {
+	/* Color */
+	background-color: rgba(255,255,255,1);
+	height: auto;
+	width: 100%;
+	/* Display and Position */
+	margin-top: 70px;
+	padding: 5px 10px 10px 10px;
+	}
+	
+	#addition-container {
+	display: none;
+	}
+
+	#update-container {
+	display: none;
+	margin-top: 20px;
+	}
+	
+	#update-option {
+	display: none;
+	}
+	
+	#delete-container {
+	display: none;
+	}
+	
+	#show-form {
+	display: none;
+	}
+	
+	/* .cancel {
+		width: 200px;
+		margin-left: 0px;
+	} */
+	
+	table,th,td { 
+			border: 1px solid grey;
+			background-color: whitesmoke;
+			color: #2196F3;
+			padding: 2px 2px 2px 2px;
+	}
+	
+	th {
+	text-align: center;
+	}
+	
+	#passwordReset {
+		background-color: white;
+		border: 1px solid grey;
+	}
+	
+	/* Header Section */
+	#header {
+		/* color */
+		color: #2196F3;
+
+		/* Display and Box Model */
+		margin-left: 15px;
+
+		/* Text */
+		font-size: 48px;
+		font-weight: 500;
+	}
+	
+	#header small {
+	color: rgba(243,109,12, 1);
+	}
+	
+	.cancel {
+		margin-top: 5px;
+	}
+	
+	.table-limit {
+		height: 50%;
+		overflow: auto;
+	}

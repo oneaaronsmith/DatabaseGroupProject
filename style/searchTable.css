@@ -1,0 +1,12 @@
+/* CSS for  div containing the table of flights */
+  .searchTable {
+    position: relative;
+    height: 170px;
+    width: 100%;
+    overflow: auto;
+  }
+
+
+  .searchFields{
+    margin-bottom: 2px;
+  }
