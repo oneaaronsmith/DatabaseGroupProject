@@ -1,0 +1,85 @@
+/* Navigation Bar */
+.navbar-top .navbar-toggle .icon-bar {
+	background-color: #2196F3;
+}
+
+.navbar-custom {
+	height: 80px;
+	font-size: 14px;
+	background-color: #2196F3;
+}
+
+#logo {
+	float: left;
+	margin-top: 5px;
+	margin-right: 15px;
+}
+
+.navbar-custom .navbar-nav > li > a {
+	border-radius: 0px; /* Override Bootstrap */
+	background-color:  #2196F3;
+	color: white;
+	height: 80px;
+	padding-top: 32px;
+	padding-right: 17px;
+	padding-left: 17px;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > li > a:hover {
+	color: #2196F3;
+	background-color: white;
+	height: 80px;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > li > a:focus {
+	color: #2196F3;
+	background-color: white;
+	height: 80px;
+}
+
+.custom-brand {
+	color: white;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	margin-top: 7px;
+}
+
+.custom-brand p {
+	font-size: 16px;
+}
+
+.navbar-toggle {
+	border: 2px solid white;
+	margin-top: 14px;
+}
+
+.icon-bar {
+	background-color: white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.custom-brand {
+		display: none;
+	}
+	.navbar-collapse.in {
+		max-height: none;
+	}
+	.navbar-nav {
+		margin-top: 0px;
+		max-height: none;
+	}
+}
+
+@media (max-width: 1185px) {
+	.custom-brand {
+		display: none;
+	}
+	.navbar-collapse.in {
+		max-height: none;
+	}
+	.navbar-nav {
+		margin-top: 0px;
+		max-height: none;
+	}
+}
