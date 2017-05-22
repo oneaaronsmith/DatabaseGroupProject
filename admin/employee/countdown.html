@@ -1,0 +1,11 @@
+<script>
+	//This script is for redirecting a page with a countdown timer
+	setInterval(function() {
+		var span = document.getElementById('timer');
+		var timeRemaining = span.textContent - 1;
+		span.textContent = timeRemaining;
+		if (timeRemaining <= 0) {
+			window.location = 'http://cs3380.rnet.missouri.edu/group/CS3380GRP5/www/admin/employee/employeeEdit.php';
+		}
+	}, 1000);
+</script>

@@ -1,0 +1,11 @@
+<script>
+	//This script is for redirecting a page with a countdown timer. It is used with flightDelete.php to return the admin to the flightEdit.php page after deletion.
+	setInterval(function() {
+		var span = document.getElementById('timer');
+		var timeRemaining = span.textContent - 1;
+		span.textContent = timeRemaining;
+		if (timeRemaining <= 0) {
+			window.location = 'http://cs3380.rnet.missouri.edu/group/CS3380GRP5/www/admin/flightEdit.php';
+		}
+	}, 1000);
+</script>

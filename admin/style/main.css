@@ -1,0 +1,115 @@
+body {
+	background-color: #2196F3;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* Image Carousel Elements*/
+#preloaded-caption, #preloaded-image {
+	opacity: 1; /* Higher specifity to override slider-image class. */
+}
+
+.caption-bg {
+	/* Color */
+	background-color: rgba(200,215,227, 0.75);
+	color: #2196F3;
+
+	/* Display and Box Model */
+	border-radius: 2px;
+	height: 45px;
+	margin-top: 460px;
+
+	position: relative;
+
+	transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+	width: 525px;
+}
+
+.caption-text {
+	/* Color */
+	color: #2196F3;
+
+	/* Display and Box Model */
+	margin-top: 4px;
+	padding: 0px 10px 0px 20px;
+
+	/* Positioning */
+	position: absolute;
+	top: 0;
+
+	/* Text */
+	font-size: 26px;
+	white-space: nowrap;
+
+	/* Other */
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
+
+.slider-image {
+	/* Display and Box Model */
+	height: 540px;
+	opacity: 0;
+	width: 100%;
+
+	/* Positioning */
+	position: absolute;
+	top: 0;
+
+	/* Other */
+	transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+}
+
+/* Header Section */
+#header {
+	/* color */
+	color: #2196F3;
+
+	/* Display and Box Model */
+	margin-left: 15px;
+
+	/* Text */
+	font-size: 48px;
+	font-weight: 500;
+}
+
+#header small {
+	color: rgba(243,109,12, 1);
+}
+
+#book-travel-container {
+	/* Color */
+	background-color: rgba(255,255,255,1);
+
+	height: 400px;
+
+	/* Display and Position */
+	margin-top: 70px;
+	padding: 5px 10px 10px 10px;
+}
+
+@media (min-width: 1420px) {
+	.caption-bg {
+		margin-top: 550px;
+	}
+	.slider-image {
+		height: 630px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.caption-bg {
+		margin-top: 600px;
+	}
+	.slider-image {
+		height: 680px;
+	}
+}
