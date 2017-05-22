@@ -1,0 +1,14 @@
+.navbar-custom {
+	background-color: #1F7EB9;
+	border-radius = 0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+	color: #D2DFE8;
+	/*background-color: #D2DFE8;*/
+}
+
+.navbar-custom .navbar-nav > .active > a {
+	background-color: #1F7EB9;
+	color: #D2DFE8;
+}
